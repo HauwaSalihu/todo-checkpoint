@@ -1,0 +1,43 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.App {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+  font-family: Arial, sans-serif;
+}
+
+.task-list {
+  margin-top: 20px;
+}
+
+.task-item.completed {
+  background-color: #f0f8ff;
+  text-decoration: line-through;
+}
+
+button {
+  margin-left: 5px;
+}
+
+button:hover {
+  background-color: #ddd;
+  cursor: pointer;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+input,
+textarea {
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+textarea {
+  resize: vertical;
+}
