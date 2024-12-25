@@ -1,8 +1,17 @@
-# React + Vite
+# To-Do List Application
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Description
+This is a simple React-based To-Do List application that allows users to add, edit, delete, and mark tasks as completed. The tasks are stored in the browser's `localStorage` to persist data across sessions.
 
-Currently, two official plugins are available:
+### Features
+- Add new tasks with a name and description.
+- Edit and update existing tasks.
+- Delete tasks with a confirmation prompt.
+- Mark tasks as completed.
+- Form validation for required fields.
+- Persist tasks using `localStorage`.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+### How to Run the Application Locally
+1. Clone this repository to your local machine:
+   ```bash
+   git clone https://github.com/HauwaSalihu/todo-checkpoint.git
